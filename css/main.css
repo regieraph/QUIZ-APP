@@ -1,0 +1,188 @@
+body{
+  margin-top: 500px;
+  padding: 0;
+  background-image: url('../img/saoQuiz2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+
+
+}
+
+header {
+
+  background-color: black;
+  margin-top: -20px;
+  padding-top: 0;
+  border-color: lightblue;
+  border-left: none;
+  border-right: none;
+  border-style: dotted;
+  border-width: thin;
+  font-family: 'VT323', monospace;
+  font-size: 50px;
+  color: lightblue;
+}
+
+.header1 {
+  display: none;
+  text-align: center;
+}
+
+.bigDiv {
+  position: relative;
+  margin-left: 660px;
+  padding-top: 75px;
+
+}
+
+.medDiv {
+  display: none;
+  background-color: #323A45;
+  margin-right: 200px;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: groove ;
+  border-color: lightgray;
+}
+
+.bigSpan {
+  display: none;
+  position: absolute;
+  padding-left: 70px;
+  padding-right: 60px;
+  margin-top: -225px;
+  margin-left: 110px;
+  background-color: gray;
+  border-width: 2px;
+  border-style: groove;
+  border-color: navy;
+  border-radius: 8px;
+}
+
+.question1P {
+  font-size: 18px;
+  font-family: 'VT323', monospace;
+  font-weight: bold  ;
+  color: lightgray;
+  text-shadow: 3px 3px black;
+
+}
+
+.question2P {
+  font-size: 18px;
+  font-family: 'VT323', monospace;
+  font-weight: bold  ;
+  color: lightgray;
+  text-shadow: 3px 3px black;
+
+}
+
+.question3P {
+  font-size: 18px;
+  font-family: 'VT323', monospace;
+  font-weight: bold  ;
+  color: lightgray;
+  text-shadow: 3px 3px black;
+
+}
+
+.question4 {
+  font-family: 'VT323', monospace;
+
+}
+.question4P {
+  font-size: 18px;
+  font-family: 'VT323', monospace;
+  font-weight: bold  ;
+  color: lightgray;
+  text-shadow: 3px 3px black;
+
+}
+
+.question5P {
+  font-size: 18px;
+  font-family: 'VT323', monospace;
+  font-weight: bold  ;
+  color: lightgray;
+  text-shadow: 3px 3px black;
+
+}
+
+.question6P {
+  font-size: 18px;
+  font-family: 'VT323', monospace;
+  font-weight: bold  ;
+  color: lightgray;
+  text-shadow: 3px 3px black;
+
+}
+
+.question7P {
+  font-size: 18px;
+  font-family: 'VT323', monospace;
+  font-weight: bold  ;
+  color: lightgray;
+  text-shadow: 3px 3px black;
+}
+
+#button {
+  position: relative;
+  margin-left: 12px;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  border-color: lightblue;
+  border-width: 3px;
+
+}
+
+
+.correct{
+  position: relative;
+  margin-top: -100px;
+  margin-left: -37px;
+}
+
+.wrong{
+  position: relative;
+  margin-top: -100px;
+  margin-left: 75px;
+}
+
+label{
+  font-style: italic;
+  font-size: 20px;
+  font-family: 'VT323', monospace;
+}
+
+#score{
+  display: none;
+}
+
+#wrong{
+  display: none;
+
+}
+
+
+.input1{
+  width: 25px;
+  font-weight: bolder;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  background-color: green;
+  text-align: center;
+  color: white
+}
+
+.input2{
+  width: 25px;
+  font-weight: bolder;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  background-color: red;
+  text-align: center;
+  color: white
+}
